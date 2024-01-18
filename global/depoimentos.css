@@ -1,0 +1,94 @@
+.depoimento-container {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.container-depoimentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffbb00;
+  overflow: hidden;
+}
+
+.depoimentos-conteudo blockquote p {
+  color: #332200;
+}
+.depoimentos-conteudo blockquote span {
+  color: #664400;
+}
+
+.container-depoimentos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.depoimentos-conteudo {
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+}
+
+.depoimentos-conteudo p {
+  font: "Merriweather", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 32px;
+  max-width: 32ch;
+  position: relative;
+}
+
+.depoimentos p:before,
+.depoimentos p::after {
+  content: "”";
+  font-size: 5rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+
+.depoimentos p:before {
+  left: -50px;
+  top: -20px;
+}
+
+.depoimentos p::after {
+  content: "”";
+}
+
+@media (max-width: 800px) {
+  .container-depoimentos {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .depoimentos-conteudo {
+    padding: 40px 20px;
+    justify-content: center;
+  }
+
+  .depoimento-container img {
+    max-height: 200px;
+  }
+
+  .depoimentos-conteudo p {
+    font-size: 24px;
+  }
+
+  .depoimentos p:before,
+  .depoimentos p::after {
+    content: "”";
+    font-size: 3rem;
+    color: var(--cor-p2);
+    position: absolute;
+  }
+
+  .depoimentos p:before {
+    left: -3px;
+    top: -20px;
+  }
+
+  .depoimentos p::after {
+    font-size: 3rem;
+    content: "”";
+  }
+}

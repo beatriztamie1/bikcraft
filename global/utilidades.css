@@ -1,0 +1,56 @@
+/* BOTÃO */
+
+.introducao-conteudo a:hover {
+  background: linear-gradient(#ffb60d), #e59317;
+}
+
+.botao {
+  padding: 16px 32px;
+  display: inline-block;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+
+  text-transform: uppercase;
+  font-family: "poppins";
+  font-weight: 600;
+
+  background: linear-gradient(#ffb60d), #e59317;
+  max-width: max-content;
+}
+
+.botao-secundario {
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #ededed;
+  font-size: 18px;
+  line-height: 1.33;
+
+  text-transform: uppercase;
+  font-family: "poppins";
+  font-weight: 600;
+  background-color: #2e2e2e;
+  max-width: max-content;
+}
+
+.botao-secundario:hover {
+  background: var(cor-9);
+}
+
+/*isso é pra manter os lados, bottom , top lados...*/
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tecnologia-container {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}

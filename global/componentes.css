@@ -1,0 +1,38 @@
+/*parte um DOS TERMOS */
+
+.titulo-container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link:hover {
+  color: var(--cor-0);
+}
+
+/* titulos internos */
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}

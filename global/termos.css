@@ -1,0 +1,40 @@
+.font-2-s {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.termos-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.termos-container h2 {
+  font-weight: 600px;
+}
+.termos-container p + h2 {
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.font-1-l {
+  padding-top: 20px;
+}
+
+.font-2-s p {
+  max-width: 75ch;
+  margin-bottom: 24px;
+}
+
+.termos-container {
+  font: 400 1rem/1.5 "roboto", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .titulo-container h1 {
+    font-size: 32px;
+  }
+}

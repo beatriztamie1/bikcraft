@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+p,
+a,
+ul,
+h2,
+h4,
+blockquote {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+img [scr$=".jpg"] {
+  border-radius: 4px;
+}
