@@ -168,10 +168,36 @@ h2 {
     width: 680px;
     border-radius: 4px;
   }
+
+  .tecnologia-conteudo a {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tecnologia-vantagens p {
+    margin-left: -20px;
+  }
 }
 
 @media (max-width: 1290px) {
   .tecnologia-vantagens-img {
     display: none;
+  }
+
+  .tecnologia-conteudo a {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tecnologia-vantagens p {
+    margin-left: -20px;
   }
 }
