@@ -21,3 +21,7 @@ img {
 img [scr$=".jpg"] {
   border-radius: 4px;
 }
+
+dd {
+  margin: 0px;
+}
