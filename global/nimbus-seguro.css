@@ -1,0 +1,105 @@
+.nimbus-seguros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.nimbus-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nimbus-bg- {
+  background-color: #121212;
+  box-shadow: inset 0 120px #ffffff, inset 0 -120px #000000;
+}
+
+.nimbus-conteudo {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.nimbus-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.nimbus-conteudo p {
+  margin-bottom: 20px;
+}
+
+.cambiar {
+  margin-left: 129px;
+}
+
+@media (max-width: 800px) {
+  .nimbus-seguros {
+    grid-template-columns: 1fr;
+  }
+
+  .nimbus-conteudo {
+    grid-row: 1;
+    padding-bottom: 40px;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .seguro-nim a {
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+
+  .nimbus-container img {
+    height: 400px;
+    width: 800px;
+  }
+
+  .seguro-nim p {
+    margin-left: 132px;
+  }
+}
+
+@media (max-width: 400px) {
+  .seguro-nim {
+    font-size: 12px;
+  }
+  .seguro-nim h2 {
+    margin-left: 20px;
+  }
+  .nimbus-container img {
+    height: 400px;
+    width: 800px;
+  }
+
+  .seguro-nim p {
+    margin-left: 0px;
+  }
+  .nimbus-seguros {
+    padding-left: -10px; /* Ajuste conforme necessário para mover para mais à esquerda */
+    padding-right: -10px; /* Ajuste conforme necessário para remover o espaço à direita */
+    box-shadow: inset 0 0 0 #000000; /* Remova o box-shadow ou ajuste conforme necessário */
+  }
+
+  .seguro-nim h2 {
+    margin-left: -110px; /* Ajuste conforme necessário para mover o título mais à esquerda */
+  }
+
+  .nimbus-container img {
+    height: auto; /* Ajuste a altura conforme necessário */
+    width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  }
+
+  .seguro-nim p {
+    margin-left: 10px; /* Ajuste conforme necessário para mover o parágrafo mais à esquerda */
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,170 @@
+.loja-bg {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lojas-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.lojas-container h2 {
+  grid-column: 1/-1;
+}
+
+.lojas-container h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.lojas-container img {
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 30px;
+}
+
+.lojas-item {
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lojas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 16px;
+  padding: 32px; /* Mantenha este padding */
+}
+
+.lojas-tempo {
+  display: flex;
+  gap: 20px;
+}
+
+.lojas-conteudo {
+  padding: 10px;
+}
+
+.lojas-dados {
+  display: grid;
+  gap: 8px;
+  border-left: 2px solid var(--cor-2);
+}
+
+.lojas-conteudo h3,
+.lojas-tempo {
+  grid-column: 1/-1;
+}
+
+.locais {
+  margin-left: -133px;
+}
+
+.lojas-item h3::before {
+  content: "";
+  width: 11px;
+  height: 8px;
+  background: #ffbb00;
+  display: inline-block; /* Garante que o elemento tenha uma largura e altura */
+  margin-right: 8px; /* Ajusta o espaçamento entre o pseudo-elemento e o texto */
+  margin-bottom: 8px;
+}
+.lojas-conteudo {
+  padding-bottom: 33px;
+}
+
+@media (max-width: 600px) {
+  .loja-bg {
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .lojas h2 {
+    margin-bottom: 32px;
+  }
+
+  .lojas-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .lojas-container img {
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*colocar mais pro lado a foto*/
+  }
+
+  .lojas-conteudo {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 500px;
+  }
+
+  .lojas-tempo img {
+    width: 20px;
+    margin-bottom: 20px;
+  }
+
+  .lojas-container h2,
+  span {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .lojas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .lojas-dados {
+    margin-left: 10px;
+  }
+
+  .lojas-tempo img {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .lojas-container span {
+    display: none;
+  }
+
+  .RJ,
+  .SP {
+    font-size: 10px;
+  }
+  .lojas-conteudo h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .loja-bg {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .lojas-container h2 {
+    margin-top: 1px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contato-endereço img {
+    width: 50px;
+  }
+
+  .lojas-item img {
+    width: 300px;
+  }
+  .lojas-tempo img {
+    width: 20px;
+  }
+}

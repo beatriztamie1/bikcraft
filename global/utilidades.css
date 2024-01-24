@@ -12,6 +12,8 @@
   color: #332200;
   font-size: 18px;
   line-height: 1.33;
+  border: none;
+  cursor: pointer;
 
   text-transform: uppercase;
   font-family: "poppins";

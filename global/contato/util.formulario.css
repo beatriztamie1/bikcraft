@@ -1,0 +1,64 @@
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form label {
+  display: block;
+  font: 600 1rem/1.5 "poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+/* configurações do input, fomrulario --- */
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.5 "roboto " sans-serif;
+  background-color: #f7f7f7;
+  border: 1px solid #ededed;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #ffbb00;
+  background: #ffffff;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.col-msg {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .form .col-2 {
+    grid-column: 1;
+  }
+
+  .contato-formulario {
+    margin-top: -130px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-container {
+    margin-bottom: 40px;
+  }
+
+  .titulo-container h1 {
+    font-size: 32px;
+  }
+
+  .contato-container {
+    margin-bottom: 40px;
+  }
+}
