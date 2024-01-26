@@ -98,6 +98,37 @@ article h2 {
     padding-bottom: 60px;
   }
   .bicicletas-lista ul {
+    gap: 40px;
+  }
+  .precinho {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-lista h2 span {
+    display: none;
+  }
+  .bicicletas-lista ul {
+    display: flex;
     gap: 20px;
+    overflow-x: auto; /* Adiciona um scroll horizontal */
+    padding: 0 20px 20px 20px;
+    white-space: nowrap; /* Mantém as listas em uma única linha */
+  }
+  .bicicletas-lista ul {
+    gap: 40px;
+  }
+  .precinho {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .bicicletas-lista h2 {
+    font-size: 32px;
+  }
+
+  .precinho {
+    font-size: 20px;
   }
 }

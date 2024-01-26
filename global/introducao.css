@@ -109,3 +109,15 @@ img {
     padding: 40px;
   }
 }
+
+@media (max-width: 600px) {
+  .introducao-img img {
+    margin-left: 95px;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao-img img {
+    margin-left: 5px;
+  }
+}

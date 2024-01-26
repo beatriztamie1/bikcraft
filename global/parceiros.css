@@ -48,6 +48,7 @@
 @media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
+    padding-top: 60px;
   }
 
   .parceiros li {

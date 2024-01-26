@@ -1,12 +1,47 @@
+.orcamento-dados.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide a seção em duas colunas */
+  gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.teste {
+  grid-column: span 2; /* Faz com que o elemento ocupe duas colunas */
+}
+
+.cool-2 {
+  grid-column: span 2; /* Faz com que os elementos com a classe cool-2 ocupem duas colunas */
+}
+
+button.botao {
+  grid-column: span 2; /* Faz com que o botão ocupe duas colunas */
+}
+.orcamento-dados h2 {
+  grid-column: 1/-1;
+}
+
+.orcamento-dados {
+  margin-top: -45px;
+  gap: 28px;
+}
+
+.orcamento-dados .cpf {
+  margin-top: -20px;
+}
+
 .col-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
+.cool-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .form label {
   display: block;
-  font: 600 1rem/1.5 "poppins", sans-serif;
+  font: 400 1rem/1.5 "poppins", sans-serif;
   margin-bottom: 4px;
 }
 
