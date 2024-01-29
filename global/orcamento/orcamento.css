@@ -1,5 +1,5 @@
 .orcamento {
-  background: linear-gradient(#121212 800px, #efefef 0px);
+  background: linear-gradient(#121212 800px, #e7e7e7 0px);
 }
 
 .orcamento-container {
@@ -180,7 +180,7 @@
     padding: 32px;
   }
   .orcamento {
-    background: linear-gradient(#121212 2000px, #efefef 0px);
+    background: linear-gradient(#121212 2000px, #e7e7e7 0px);
   }
 
   .respo label {
@@ -200,7 +200,7 @@
     border-radius: 0 0 5px 5px;
   }
   .orcamento {
-    background: linear-gradient(#121212 900px, #efefef 0px);
+    background: linear-gradient(#121212 900px, #e7e7e7 0px);
   }
   .titulo-container span {
     display: none;
@@ -212,7 +212,7 @@
 
 @media (max-width: 900px) {
   .orcamento {
-    background: linear-gradient(#121212 900px, #efefef 0px);
+    background: linear-gradient(#121212 900px, #e7e7e7 0px);
   }
   .orcamento-container label {
     margin-bottom: 20px;
@@ -261,7 +261,7 @@
     margin-top: 40px;
   }
   .orcamento {
-    background: linear-gradient(#121212 400px, #efefef 0px);
+    background: linear-gradient(#121212 400px, #e7e7e7 0px);
   }
 
   .orcamento-produto {
