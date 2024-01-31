@@ -5,6 +5,8 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .perguntas-container h2 {
@@ -12,7 +14,7 @@
 }
 
 .perguntas {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .perguntas {
@@ -32,14 +34,20 @@ dl {
   background-color: #ffffff; /* Cor de fundo para perguntas pares */
 }
 
-.dt {
-  display: grid;
+.perguntas button {
+  display:grid;
   grid-template-columns: auto 1fr auto;
-  align-items: center;
   gap: 8px;
   cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+text-align: left;
+    outline: none;
+    text-transform: uppercase;
+
 }
-dt::before {
+.perguntas button::before {
   content: "";
   display: inline-block;
   width: 12px;
@@ -47,21 +55,32 @@ dt::before {
   background-color: var(--cor-p1);
 }
 
-dt::after {
+.perguntas button::after {
   content: "";
   display: inline-block;
   width: 10x;
   height: 10px;
-  background: url(../img/icones/seta-abrir.svg);
+  background: url(/img/icones/seta.svg);
   margin-left: 40px;
   margin-top: 10px;
 }
 
-.dt {
+.perguntas dd {
+  display: none;
+}
+
+.ativas{
+  display: block !important;
+}
+
+ 
+
+.button {
   padding-left: 8px;
   padding-top: 8px;
   max-width: 80ch;
 }
+
 
 .perguntas-container h2 {
   margin-top: 60px;
@@ -102,6 +121,10 @@ dt::after {
     margin-top: 60px;
     margin-bottom: 60px;
   }
+  dd {
+    padding: 20px 10px 20px 10px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -112,4 +135,11 @@ dt::after {
   .perguntas-container span {
     display: none;
   }
+
+   dd {
+    padding: 20px 10px 20px 10px;
+    font-size: 16px;
+  }
 }
+
+/*ultimas revisoes
